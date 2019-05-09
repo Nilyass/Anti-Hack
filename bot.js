@@ -48,8 +48,8 @@ client.on("raw", (packet)=> {
 });
 client.on("reachLimit", (limit)=> {
   let log = limit.guild.channels.find( channel => channel.name === "security-log");
-  log.send(limit.user.username+"\** سيرفر بيتهكر ! ** ");
-  limit.guild.owner.send(limit.user.username+"\** سيرفرك بيتهكر ! ** ")
+  log.send(limit.user.username+"\**@here / سيرفر بيتهكر ! ** ");
+  limit.guild.owner.send(limit.user.username+"\**@everyone / سيرفرك بيتهكر ! ** ")
   limit.member.roles.map(role => {
     limit.member.removeRole(role.id)
     .catch(log.send)
