@@ -55,4 +55,4 @@ client.on("reachLimit", (limit)=> {
     .catch(log.send)
   });
 });
-client.login("NTY0OTE3NjA3MjcxMTA0NTIz.XNSPJw.y8HLdPtrcLNeq_UkDV_s8sMp-uU");
+client.login("NTY0OTE3NjA3MjcxMTA0NTIz.XPvo4g.TVVa9Yf8g2hCNrEOBdHEDa7sZSU");
